@@ -12,7 +12,7 @@
         <IsA>library</IsA>
         <Summary>Computer vision library</Summary>
         <Description>opencv is a programming library mainly aimed at the real time computer vision. Example applications are human-computer interaction, object identification, face recognition, motion tracking, mobile robotics.</Description>
-        <Archive sha1sum="d16ced627db17f9864c681545f18f030c7a4cc0b" type="targz">https://github.com/Itseez/opencv/archive/2.4.9.tar.gz</Archive>
+        <Archive sha1sum="0b185f5e332d5feef91722a6ed68c36a6d33909e" type="zip">http://sourceforge.net/projects/opencvlibrary/files/opencv-unix/2.4.10/opencv-2.4.10.zip</Archive>
         <BuildDependencies>
             <Dependency>eigen</Dependency>
             <Dependency>gtk2-devel</Dependency>
@@ -81,6 +81,13 @@
     </Package>
 
     <History>
+        <Update release="6">
+            <Date>2014-11-13</Date>
+            <Version>2.4.10</Version>
+            <Comment>Version bump.</Comment>
+            <Name>Stefan Gronewold(groni)</Name>
+            <Email>groni@pisilinux.org</Email>
+        </Update>
         <Update release="5">
             <Date>2014-05-15</Date>
             <Version>2.4.9</Version>
