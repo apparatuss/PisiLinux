@@ -12,7 +12,7 @@
         <IsA>library</IsA>
         <Summary>Library for MPEG TS/DVB PSI tables decoding and generation</Summary>
         <Description>libdvbpsi is a simple library designed for decoding and generation of MPEG TS and DVB PSI tables.</Description>
-        <Archive sha1sum="ea1d7cb2dd9b380bbfabb879d1c77590a600ae40" type="tarbz2">http://download.videolan.org/pub/libdvbpsi/1.1.2/libdvbpsi-1.1.2.tar.bz2</Archive>
+        <Archive sha1sum="b918985f65e1d14bf19209b6b3def254c902901a" type="tarbz2">http://download.videolan.org/pub/libdvbpsi/1.2.0/libdvbpsi-1.2.0.tar.bz2</Archive>
     </Source>
 
     <Package>
@@ -36,6 +36,13 @@
     </Package>
 
     <History>
+        <Update release="4">
+            <Date>2014-11-13</Date>
+            <Version>1.2.0</Version>
+            <Comment>Version Bump.</Comment>
+            <Name>Alihan Öztürk</Name>
+            <Email>alihan@pisilinux.org</Email>
+        </Update>
         <Update release="3">
             <Date>2014-05-31</Date>
             <Version>1.1.2</Version>
