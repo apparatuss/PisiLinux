@@ -21,8 +21,8 @@ def install():
     autotools.rawInstall("DESTDIR=%s" % get.installDIR())
 
     # Fixup libs and remove static one
-    pisitools.dosym("libxvidcore.so.4",  "/usr/lib/libxvidcore.so")
-    pisitools.dosym("libxvidcore.so.4.3",  "/usr/lib/libxvidcore.so.4")
+    pisitools.dosym("libxvidcore.def",  "/usr/lib/libxvidcore.def")
+    pisitools.dosym("libxvidcore.ld",  "/usr/lib/libxvidcore.ld")
     pisitools.remove("/usr/lib/libxvidcore.a")
 
     shelltools.cd("../..")
